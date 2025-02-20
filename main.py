@@ -3,7 +3,7 @@ from epub2txt import epub2txt
 from os import mkdir
 
 
-ebook_name="Queen of Shadows.epub"
+ebook_name="Buch.epub"
 
 max_characters = 1000
 
@@ -18,12 +18,12 @@ characters={
 
 
 CHUNK_SIZE = 1024
-url = "https://api.elevenlabs.io/v1/text-to-speech/FVQMzxJGPUBtfz1Azdoy"
+url = "https://api.elevenlabs.io/v1/text-to-speech/XXX"
 
 headers = {
   "Accept": "audio/mpeg",
   "Content-Type": "application/json",
-  "xi-api-key": "971662cf6e00425c0e7dc507397ad586"
+  "xi-api-key": "XXX"
 }
 
 book_dir=ebook_name.split(".")[0]
